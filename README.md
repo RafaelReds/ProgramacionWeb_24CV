@@ -1,3 +1,3 @@
 # ProgramacionWeb_24CV
 
-Esto es una proyecto en el que se esta aprendiendo de los elementos de HTML.
+Esto es un proyecto en el que se esta aprendiendo de los elementos de HTML.
