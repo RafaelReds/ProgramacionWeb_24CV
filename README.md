@@ -1,3 +1,3 @@
 # ProgramacionWeb_24CV
 
-Esto es un proyecto en el que se esta aprendiendo de los elementos de HTML.
+Este repositorio contiene todo lo visto, aprendido y practicado en la asignatura de "Programación Web".
