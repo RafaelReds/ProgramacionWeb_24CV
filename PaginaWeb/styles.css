@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
@@ -31,7 +31,7 @@ h2{
 }
 
 p{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 img{
@@ -136,6 +136,107 @@ list-style-type: none;
 .little-info{
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.lower-container{
+    margin: 120px auto;
+    padding: 0;
+    max-width: 1400px;
+    text-align: center;
+}
 
+.title{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.text{
+    color: black;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+    margin: 0 20px;
+    text-align: justify;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats{
+    padding: 45px 50px;
+    text-align: center;
+}
+
+.stat{
+    margin: 0 30px;
+    text-align: center;
+    width: 800px;
+}
+
+.stats .fa{
+    color: orange;
+}
+
+.title-container{
+    color: black;
+    text-align: center;
+}
+
+.testimonial{
+    color: black;
+    padding: 40px;
+}
+
+.testimonial img{
+    height: 100%;
+    clip-path: circle();
+}
+
+.testimonial h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+
+.card{
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -7px -7px 20px rgb(0, 0, 0, 0.2), 7px 7px 20px rgb(0, 0, 0, 0.2);
+}
+
+.circle{
+    background-color: transparent;
+    border: 3px solid orange;
+    height: 90px;
+    position: relative;
+    top: -30px;
+    left: 120px;
+    border-radius: 50%;
+    width: 90px;
+}
+
+footer{
+    background-color: orange;
+    padding: 20px 10px;
+}
+
+footer a{
+    color: white;
+    margin: 0 10px;
+}
+
+footer a:hover{
+    color: #e8d6b5;
+    border-bottom: 3px solid #e8d6b5;
 }
