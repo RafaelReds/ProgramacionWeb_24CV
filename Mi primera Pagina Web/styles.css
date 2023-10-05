@@ -1,0 +1,226 @@
+/* .header{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.37),
+        rgba(0, 0, 0, 0.911)),
+        url(./Imagenes/FSR.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+} */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #E13991;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ----------------NAVBAR---------------- */
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    padding: 0 30px;
+}
+
+.navbar h1{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+.navbar .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    padding: 9px;
+    margin: 0 10px;
+}
+
+.navbar a:hover{
+    color: #00000067;
+    border-bottom: 3px solid #e8d6b5;
+}
+
+li{
+    list-style-type: none;
+    }
+
+/* ----------------NAVBAR---------------- */
+
+.contenedor-1{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.466),
+        rgba(0, 0, 0, 0.801)),
+    url(./Imagenes/FSR.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.h1-titulo{
+    display: flex;
+    color: white;
+    font-size: 70;
+}
+
+.h2-titulo-anton{
+    display: flex;
+    color: white;
+    font-size: 65;
+   font-family: 'Anton', sans-serif;
+   text-shadow: -4px -4px 0 #000000, 
+   4px -4px 0 #000000, 
+   -4px 4px 0 #000000, 
+   4px 4px 0 #000000; 
+   margin: 10;
+   padding: 15px;
+}
+
+.p-descripcion{
+    color: white;
+    font-size: 30;
+}
+
+.contenedor-2{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.466),
+        rgba(0, 0, 0, 0.801));
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        border: 1px solid #ccc;
+
+}
+
+.text-cont2{
+    color: white;
+    font-size: 30;
+    flex: 1; 
+    padding-right: 20px; 
+}
+
+.imagen-edo{
+    flex: 0.5; 
+    text-align: right;
+}
+
+.contenedor-imagenes {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.466),
+        rgba(0, 0, 0, 0.801));
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+
+.contenedor-imagenes img {
+    width: 350;
+    height: 250; 
+}
+
+.contenedor-texto{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.466),
+        rgba(0, 0, 0, 0.801));
+        display: flex;
+}
+
+.contenedor-texto p{
+    color: white;
+    font-size: 25;
+    margin: 10px;
+    padding: 15px;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+
+.card{
+    
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -7px -7px 20px rgb(0, 0, 0, 0.2), 7px 7px 20px rgb(0, 0, 0, 0.2);
+    align-items: center;
+}
+
+.card img{
+    padding: 10;
+    margin: 15;
+    width: 300;
+    height: 150; 
+}
+
+.card h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+}
+
+.card p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer a{
+    color: rgb(0, 0, 0);
+    margin: 0 10px;
+}
+
+footer h2{
+   
+    color: rgb(0, 0, 0);
+    margin: 0 10px;
+    text-align: end;
+}
+
+p{
+    font-size: 30px;
+    color: white;
+}
+
